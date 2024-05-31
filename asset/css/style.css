@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+header h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    font-family: "Raleway", sans-serif, normal;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+section img{
+    width: 100%;
+}
+
+.sectionContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
+.contentP{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+section p{
+    color: white;
+    font-family: "Raleway", sans-serif, normal;
+    padding-right: 2rem;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.sectionContent img{
+    width: 40%;
+    padding-right: 1rem;
+}
+.sectionCaracter{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #1E1A13;
+    color: white;
+    font-family: "Raleway", sans-serif, normal;
+    font-weight: normal;
+}
+.sectionCaracter span{
+    font-size: 35px;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.info{
+    display: flex;
+    gap: 10%;
+    width: 90%;
+    margin: 2rem;
+}
+.sectionPhoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 5rem;
+}
+.sectionPhoto img{
+width: 30%;
+padding: 1rem;
+}
+.sectionPhoto :first-child{
+    width: 35%;
+}
+.flexIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    padding: 2rem 1 rem;
+    margin: 2rem 3rem;
+}
+.flexIcon span{
+    color: white;
+    font-family: "Raleway", sans-serif, normal;
+    font-weight: lighter;
+    font-size: 23px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: #1E1A13;
+    padding: 1.25rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif, normal;
+    font-weight: normal;
+    padding: 0 3px;
+}
+footer span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Raleway", sans-serif, normal;
+    font-weight: normal;
+}
